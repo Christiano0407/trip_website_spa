@@ -72,6 +72,9 @@ button:active {
 }
 /*? ======= === Mobile === ======= */
 @media (width >= 375px) {
+  .display__screen {
+    display: none;
+  }
   .header-icons {
     width: 10rem;
     display: flex;
@@ -584,11 +587,53 @@ button:active {
   }
 }
 /*? ===== === Tablet === ====== */
-@media (width <= 768px){
+@media (width >= 768px){
+  .page {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / 3;
+  }
+  #idLogo {
+    display: none;
+  }
+  #idBackgroundText {
+    display: none;
+  }
+  #idDisplayScreen {  
+    display: flex;
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / 2;
+  }
+  .screen {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
   .section__menu {
     display: none;
   }
+
+  .image__screen {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+  .screen-images {
+    border-radius: 2rem;
+  }
 }
+/*? ====== === Screen === ====== */
+@media (width >= 1280px) {}
+
 /*? ==== Components Tailwind CSS ==== */
 @layer base {}
 @layer components {

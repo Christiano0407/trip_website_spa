@@ -9,13 +9,13 @@
     <title>Website | Landing Page | Dream Travel</title>
   </head>
   <body>
-    <main id="idMain" class="page w-full mob:w-full  md:w-full">
+    <main id="idMain" class="page w-full mob:w-full  md:w-full"> 
       <!-- ==== Mobile Landing background Image ===== -->
       <div id="idLanding" class="background mob:relative mob:w-full mob:h-screen mob:flex">
-        <a class="mob:absolute mob:top-[2rem] mob:w-[8rem] mob:left-[40%]">
+        <a id="idLogo" class="mob:absolute mob:top-[2rem] mob:w-[8rem] mob:left-[40%]">
           <img class="mob:object-cover" src="./src/icons/Dream Trip_transparent.png">
         </a>
-        <div class="mob:absolute p-[1rem] mob:w-[90%] mob:left-[5%] mob:bottom-[5%] mob:flex mob:flex-col">
+        <div id="idBackgroundText" class="mob:absolute p-[1rem] mob:w-[90%] mob:left-[5%] mob:bottom-[5%] mob:flex mob:flex-col">
           <h1 class="mob:w-full mob:font-black text-[2.6rem] text-[#f2f2f2] mob:text-center mob:my-[1rem] mob:mx-auto">Discover Amazing World with Dream Travel</h1>
           <span class="mob:w-full mob:text-center mob:text-sm mob:font-medium mob:text-[#f9f9f9]
           mob:mx-auto mob:my-[1rem] ">Encuentra un lugar para ti y tu familia. Los socios ahorran 25% o más en hoteles seleccionados.</span>
@@ -23,8 +23,43 @@
         </div>
       </div>
 
-      <!-- ==== Home (Mobile) ==== -->
-      <div id="idHome" class="w-full mob:hidden p-[1rem]"></div>
+      <!-- === Main Tablet & Screen === -->
+      <div id="idDisplayScreen" class="display__screen">
+        <div class="screen">
+          <a id="idLogo" class="logo__screnn">
+            <img class="screen_img" src="./src/icons/Dream Trip_transparent.png">
+          </a>
+          <div class="screen__text">
+            <h1 class="screen__text--title">Explore New Ways to Find Adventures and Discover Amazing World with Dream Travel</h1>
+
+            <span class="screen__text--span">Encuentra un lugar para ti y tu familia. Los socios ahorran 25% o más en hoteles seleccionados.</span>
+
+            <div class="screen__divider"></div>
+          </div>
+          <section class="screen__images">
+            <div class="screen__image--popular">
+              <span class="popular-text">Popular Destination:</span>
+              <ul class="popular-list">
+                <li class="list-item">#Europe</li>
+                <li class="list-item">#E.U.A</li>
+                <li class="list-item">#London</li>
+                <li class="list-item">#Disney</li>
+              </ul>
+            </div>
+            <div class="image__screen">
+              <figure class="screen-figure">
+                <img class="screen-images" src="">
+              </figure>
+              <figure class="screen-figure">
+                <img class="screen-images" src="">
+              </figure>
+            </div>
+          </section>
+          <blockquote class="text-traveling">
+            <p class="">Traveling is <strong>Explore New Worlds and Cultures</strong></p>
+          </blockquote>
+        </div>
+      </div>
     </main>
     <!---- ==== Javascript ==== ---->
     <script type="module" src="/main.js"></script>
