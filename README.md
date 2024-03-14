@@ -13,6 +13,10 @@ git commit -m "Initial commit"
 
 
 ```
+
+> HTTP & SSH (GitHub)
+
+```
 HTTP:
 git remote add origin https://github.com/tu-usuario/tu-repositorio.git
 
@@ -21,6 +25,7 @@ git@github.com:UserName/nameProject.git
 
 git branch -M main
 git push -u origin main
+```
 
 >  Changes In your Branch:
 
