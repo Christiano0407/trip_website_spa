@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" size="32x32" href="../icons/Dream Trip.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="/style.css">
+  <title>Website | Home Page | Dream Travel </title>
+</head>
+<body>
+  <!-- ===== View (Vista) MVC ===== -->
+  <main id="idMainPage" class="page w-full h-full">
+    <div id="idMobile" class="mob:relative mob:flex mob:flex-col md:grid p-0 gap-5">
+  <!-- ====== Header MobileFirst ======= --->
+      <section id="mobileHeader" class="section w-full">
+        <header class="w-full mob:my-0 mob:mx-auto">
+          <span class="text-xs font-normal text-[#f9f9f9]">7:45</span>
+         <div class="header-icons">
+          <a href=""><i class="fa-solid fa-battery-three-quarters"></i></a>
+          <a href=""><i class="fa-solid fa-signal"></i></a>
+          <a href="">
+            <i class="activate fa-solid fa-moon"></i>
+            <i class="none fa-regular fa-lightbulb"></i>
+          </a>
+         </div>
+        </header>
+        <aside class="aside w-full p-[1rem]">
+          <div class="aside-user">
+          <figure class="aside-figure">
+            <img class="aside-img" src="../icons/6014539_coronavirus_female_nurse_white_icon.svg" alt="icon-image">
+          </figure>
+          <span class="aside-name text-white ">User name</span>
+          </div>
+          <a class="icon-mobile"><i class="fa-regular fa-bell"></i></a>
+        </aside>
+        <div class="w-full mob:flex mob:flex-col">
+          <p class="text-search mob:font-bold">Discover your Next Dream Trip</p>
+         <div class="search-mobile">
+          <search class="mob-search">
+            <form class="mob-form">
+              <a class="search-eye"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <label class="mob-label">
+                <input class="mobile-input" type="search" name="on" autocomplete="off">
+              </label>
+              <input id="idInput" type="submit" value="search">
+            </form>
+          </search>
+          <button id="idBtnSearch" class="search-btn">Search</button>
+         </div>
+        </div>
+      </section>
+  <!-- ====== Scroll Slider Cards / Display ======= -->
+      <section class="section section-scroll w-full p-[1rem] bg-slate-200">
+        <div class="w-full p-[1rem]">
+          <span class="text-category text-blueBase">Top Categories</span>
+        </div>
+       <div class="scrolling">
+        <div id="idContainerScroll" class="container">
+          <div id="idScroll" class="scroll">
+             <a class="scroll-chips"><i class="fa-solid fa-umbrella-beach"></i><span class="scroll-span">Beach</span></a>
+             <a class="scroll-chips"><i class="fa-solid fa-location-dot"></i><span class="scroll-span">Travel</span></a>
+             <a class="scroll-chips"><i class="fa-solid fa-plane"></i><span class="scroll-span">Trip Fly</span></a>
+             <a class="scroll-chips"><i class="fa-solid fa-hotel"></i><span class="scroll-span">Hotels</span></a>
+             <a class="scroll-chips"><i class="fa-solid fa-car"></i><span class="scroll-span">Transport</span></a>
+             <a class="scroll-chips"><i class="fa-solid fa-anchor"></i><span class="scroll-span">Boats</span></a>
+          </div>
+       </div>
+       </div>
+        <div class="slider__cards w-full">
+          <div class="container__cards">
+            <div id="idCardScroll" class="card-scroll">
+            </div>
+          </div>
+        </div>
+      </section>
+  <!-- ====== Travel Scroll Slider ====== -->
+      <section class="section w-full p-[1rem] bg-slate-200">
+        <div class="see-text w-full p[1rem]">
+          <span class="text-destiny text-blueBase">Popular Destination</span>
+          <a class="text-see"><span class="text-all">See all</span><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <div class="slider__destiny">
+          <div class="container__destiny">
+            <div id="idCardsDestiny" class="card__destiny"></div>
+          </div>
+        </div>
+      </section>
+  <!-- ====== NavBar ====== -->
+      <section class="section__menu w-full">
+        <div class="menu__navBar">
+         <div class="navBar-item">
+          <button class="navBar-circle"><a class="navBar__icon"><i class="fa-solid fa-house"></i></a></button>
+          <span>Home</span>
+         </div>
+          <div class="navBar-item">
+            <button class="navBar-circle">
+              <a class="navBar__icon"><i class="fa-solid fa-list"></i></a>    
+            </button>
+           <span>Categories</span>
+          </div>
+          <div class="navBar-item">
+            <button class="navBar-circle active">
+              <a class="navBar__icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </button>
+          </div>
+          <div class="navBar-item">
+            <button class="navBar-circle">
+              <a class="navBar__icon"><i class="fa-solid fa-location-dot"></i></a>
+            </button>
+           <span>Travels</span>
+          </div>
+         <div class="navBar-item">
+          <button class="navBar-circle">
+            <a class="navBar__icon"><i class="fa-solid fa-user"></i></a>
+          </button>
+          <span>User</span>
+         </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ======== === New Main Display Travel Card === ========= -->
+  <main id="idTrip" class="trip__display inactive">
+    <header class="w-full mob:my-0 mob:mx-auto">
+      <span class="text-xs font-normal text-[#f9f9f9]">7:45</span>
+     <div class="header-icons">
+      <a href=""><i class="fa-solid fa-battery-three-quarters"></i></a>
+      <a href=""><i class="fa-solid fa-signal"></i></a>
+      <a href="">
+        <i class="activate fa-solid fa-moon"></i>
+        <i class="none fa-regular fa-lightbulb"></i>
+      </a>
+     </div>
+    </header>
+    <div class="trip__search">
+      <a class="trip__search--return"><i class="fa-solid fa-arrow-left"></i></a>
+      <search class="searach__trips">
+        <form class="search__form">
+          <a class="search__form--eye"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <label class="search__form--label">
+            <input class="search__input" type="search" name="on" autocomplete="on">
+          </label>
+        </form>
+      </search>
+      <a class="trip__search--bell"><i class="fa-solid fa-bell"></i></a>
+    </div>
+    <section id="idTripInfo" class="trip__info">
+      <!--DOM JS-->
+   </section>
+    <footer class="footerTrip w-full">
+      <div class="trip__pay">
+        <div class="pay__info">
+          <p class="pay__info--trip">Travel Beach</p>
+          <span class="pay__info--item">Travel Beach</span>
+        </div>
+        <span class="pay__person">$30</span>
+      </div>
+      <div class="trip__comments">
+        <header class="header__comments">
+          <ul class="comments__list">
+            <li class="list-item">Overview</li>
+            <li class="list-item">Comments</li>
+            <li class="list-item">Directions</li>
+          </ul>
+        </header>
+        <p class="trip-comments">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic optio atque sint libero, nostrum nihil quisquam dolorem, laborum eius tempora temporibus! Iste delectus nemo cum magni rerum,reiciendis consequatur vero!</p>
+
+        <button class="btn__pay w-full">Pay Now</button>
+      </div>
+    </footer>
+  </main>
+
+<!-- ====== JAVASCRIPT ======== -->
+   <script type="module" src="../js/home.js"></script>
+</body>
+</html>

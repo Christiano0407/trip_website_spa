@@ -1,0 +1,74 @@
+{
+  "dataBase": [
+    {
+      "id": 1,
+      "name": "NYC, E.U.A",
+      "destination": "Destiny 1",
+      "description": "Nueva York incluye 5 distritos que se ubican donde el río Hudson.",
+      "imgId": "img1",
+      "image": "../img/trip_1.jpg",
+      "price": 3500,
+      "stars": 4.5
+    },
+    {
+      "id": 2,
+      "name": "London UK",
+      "destination": "Destiny 2",
+      "description": "Londres, la capital de Inglaterra y del Reino Unido.",
+      "imgId": "img2",
+      "image": "../img/trip_2.jpg",
+      "price": 1500,
+      "stars": 3.5
+    },
+    {
+      "id": 3,
+      "name": "France, París",
+      "destination": "Destiny 3",
+      "description": "París, la capital de Francia, es una importante ciudad europea.",
+      "imgId": "img3",
+      "image": "../img/trip_3.jpg",
+      "price": 5000,
+      "stars": 5
+    },
+    {
+      "id": 4,
+      "name": "Rome, Italy",
+      "destination": "Destiny 4",
+      "description": "Roma, la capital de Italia, es una extensa ciudad cosmopolita.",
+      "imgId": "img4",
+      "image": "../img/trip_7.jpg",
+      "price": 7500,
+      "stars": 4.5
+    },
+    {
+      "id": 5,
+      "name": "Mexico City",
+      "destination": "Destiny 5",
+      "description": "El Palacio de Bellas Artes es un recinto cultural.",
+      "imgId": "img5",
+      "image": "../img/trip_5.jpg",
+      "price": 2500,
+      "stars": 3.5
+    },
+    {
+      "id": 6,
+      "name": "Travel Beach",
+      "destination": "Destiny 6",
+      "description": "Las playas más hermosas.",
+      "imgId": "img6",
+      "image": "../img/trip_5.jpg",
+      "price": 8500,
+      "stars": 5
+    },
+    {
+      "id": 7,
+      "name": "Río Janeiro, Brasil",
+      "destination": "Destiny 7",
+      "description": "El Cristo Redentor o Cristo del Corcovado.",
+      "imgId": "img7",
+      "image": "../img/trip_4.jpg",
+      "price": 6500,
+      "stars": 4.5
+    }
+  ]
+}

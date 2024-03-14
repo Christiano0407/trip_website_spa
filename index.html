@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" size="32x32" href="./src/icons/Dream Trip.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <title>Website | Landing Page | Dream Travel</title>
+  </head>
+  <body>
+    <main id="idMain" class="page w-full mob:w-full  md:w-full">
+      <!-- ==== Mobile Landing background Image ===== -->
+      <div id="idLanding" class="background mob:relative mob:w-full mob:h-screen mob:flex">
+        <a class="mob:absolute mob:top-[2rem] mob:w-[8rem] mob:left-[40%]">
+          <img class="mob:object-cover" src="./src/icons/Dream Trip_transparent.png">
+        </a>
+        <div class="mob:absolute p-[1rem] mob:w-[90%] mob:left-[5%] mob:bottom-[5%] mob:flex mob:flex-col">
+          <h1 class="mob:w-full mob:font-black text-[2.6rem] text-[#f2f2f2] mob:text-center mob:my-[1rem] mob:mx-auto">Discover Amazing World with Dream Travel</h1>
+          <span class="mob:w-full mob:text-center mob:text-sm mob:font-medium mob:text-[#f9f9f9]
+          mob:mx-auto mob:my-[1rem] ">Encuentra un lugar para ti y tu familia. Los socios ahorran 25% o más en hoteles seleccionados.</span>
+          <a href="./src/html/home.html" id="idStart" class="mob:w-full mob:font-bold mob:text-base mob:p-[1.5rem] mob:rounded-lg mob:my-[1rem] bg-bluePrimary text-[#f2f2f2] mob:text-center">Get Started</a>
+        </div>
+      </div>
+
+      <!-- ==== Home (Mobile) ==== -->
+      <div id="idHome" class="w-full mob:hidden p-[1rem]"></div>
+    </main>
+    <!---- ==== Javascript ==== ---->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
